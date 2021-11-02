@@ -1,0 +1,179 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #060322;
+    height: 100%;
+    width: 100%;
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+    background-color: #060322 !important;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.heading {
+    font-size: 52px;
+}
+
+.cta {
+    padding: 15px 48px !important;
+    border: none;
+    font-size: 1.45rem;
+    border-radius: 5px;
+    background-color: #6b4ee6;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.left {
+    background-color: rgba(56, 53, 78, 1);
+    width: auto;
+}
+
+.left button {
+    background-color: #6b4ee6;
+}
+
+.right {
+    width: auto;
+    display: flex;
+}
+
+.right img {
+    width: auto;
+    height: 424px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.left h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 52px;
+    line-height: 170%;
+}
+
+.left h2 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 28px;
+    line-height: 170%;
+}
+
+.container-dua {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container-dua img {
+    width: auto;
+    height: 450px;
+}
+
+.container-tiga {
+    color: white;
+}
+
+.service {
+    justify-content: center;
+}
+
+.subtitle {
+    color: black !important;
+}
+
+.container-contact {
+    background-image: url("img/Rectangle\ 96.png");
+    background-size: cover;
+    height: 739px;
+    padding: 340px;
+    margin-left: 0;
+}
+
+.page-padding {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.title {
+    margin-top: -15px;
+}
+
+.imageHeader img {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce 2s infinite;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 726px) {
+    .imageHeader img {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        transform: scale(1.1);
+    }
+    .globe img {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        transform: scale(1.7);
+        padding-bottom: 20px;
+    }
+    .plan {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .plan .col {
+        padding: 10px;
+    }
+    .container-contact {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+    }
+    .container-contact .desription {
+        padding-top: 340px;
+    }
+    .cls {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        transform: scale(1.2);
+        padding: 0;
+    }
+    .str {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .container-contact .desription {
+        padding-top: 300px;
+    }
+    .container-contact {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+    }
+}
