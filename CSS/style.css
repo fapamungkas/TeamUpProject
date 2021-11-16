@@ -20,7 +20,7 @@ body {
 }
 
 .heading {
-    font-size: 52px;
+    font-size: 40px;
 }
 
 .cta {
@@ -68,7 +68,8 @@ body {
     line-height: 170%;
 }
 
-.container-dua {
+
+/* .container-dua {
     max-width: 100%;
     height: auto;
     text-align: center;
@@ -78,7 +79,7 @@ body {
 .container-dua img {
     width: auto;
     height: 450px;
-}
+} */
 
 .container-tiga {
     color: white;
@@ -112,7 +113,15 @@ body {
 .imageHeader img {
     display: inline-block;
     margin: 0 0.5rem;
-    animation: bounce 2s infinite;
+    animation: bounce 2s;
+}
+
+.plans {
+    padding-top: 30px;
+}
+
+.plann {
+    font-size: 48px;
 }
 
 
@@ -152,7 +161,7 @@ body {
     }
     .cls {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         transform: scale(1.2);
         padding: 0;
@@ -163,9 +172,45 @@ body {
         width: 100%;
         padding: 0;
     }
+    .footer-hp {
+        width: 100%;
+        text-align: start;
+        padding: 0;
+        margin: 0;
+    }
+    /* .partner-text {
+        width: 100%;
+        padding: 0;
+    } */
+    .text-service {
+        width: 100%;
+        padding: 0;
+    }
+    .text-will {
+        width: 100%;
+        padding: 0;
+    }
+    .help-text p {
+        width: 100%;
+    }
+    .imageHeader img {
+        padding-top: 80px;
+    }
+    .globe {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .plann {
+        text-align: center;
+        padding-left: 25px;
+    }
+    .texts {
+        text-align: center;
+        padding-left: 25px;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1440px) {
     .container-contact .desription {
         padding-top: 300px;
     }
